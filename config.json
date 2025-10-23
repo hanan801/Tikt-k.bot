@@ -1,0 +1,18 @@
+{
+    "api_settings": {
+        "timeout": 30,
+        "retry_attempts": 3,
+        "delay_between_requests": 2
+    },
+    "selenium_settings": {
+        "headless": false,
+        "user_agent": "Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36",
+        "window_size": "375,812"
+    },
+    "bot_settings": {
+        "max_copy_per_session": 50,
+        "max_views_per_session": 100,
+        "random_delay_min": 2,
+        "random_delay_max": 8
+    }
+}
