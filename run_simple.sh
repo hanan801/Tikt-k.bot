@@ -11,7 +11,7 @@ fi
 
 # Check if required packages are installed
 echo "🔍 Checking dependencies..."
-python -c "import requests, selenium, beautifulsoup4" 2>/dev/null
+python -c "import requests, selenium, bs4" 2>/dev/null
 if [ $? -ne 0 ]; then
     echo "📦 Installing missing dependencies..."
     pip install requests beautifulsoup4 selenium
@@ -26,5 +26,3 @@ fi
 echo "🎵 Starting TikTok Bot..."
 python tiktok_bot_simple.py
 EOF
-
-chmod +x run_simple.sh
